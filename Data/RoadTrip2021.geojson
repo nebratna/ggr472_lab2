@@ -1,0 +1,424 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Killarney PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 24, 2021",
+                "trails": "Chikanishing"
+            },
+            "geometry": {
+                "coordinates": [
+                    -81.40178335169001,
+                    46.0123296909581
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "White Fish Island Reserve",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 25, 2021"
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.35103015921645,
+                    46.51150261955178
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0c7ed4",
+                "marker-size": "medium",
+                "visited": "Pancake Bay PP",
+                "date": "August 25, 2021"
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.68156206739495,
+                    46.96823511652116
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Lake Superior PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 26, 2021",
+                "trails": "Nokomis"
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.89713521251305,
+                    47.79067145182299
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Lake Superior PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 27, 2021",
+                "trails": "Orphan Lake"
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.81093445170968,
+                    47.490156542394544
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Scenic High Falls to Silver Falls",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 28, 2021",
+                "trails": "Scenic High Falls to Silent Falls"
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.82788169481806,
+                    47.95908934608826
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Pukaskwa NP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 29, 2021",
+                "trails": "Southern Headland, Manito Miikana, Beach"
+            },
+            "geometry": {
+                "coordinates": [
+                    -86.29033414976034,
+                    48.59124639625338
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Pukaskwa NP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 30, 2021",
+                "trails": "Bimose Kinoomagewnan"
+            },
+            "geometry": {
+                "coordinates": [
+                    -86.29038212592488,
+                    48.591250929496596
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Neys PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 30, 2021",
+                "trails": "Lookout"
+            },
+            "geometry": {
+                "coordinates": [
+                    -86.62401320973797,
+                    48.793652605544224
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Neys PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 30, 2021",
+                "trails": "Point"
+            },
+            "geometry": {
+                "coordinates": [
+                    -86.61454948298893,
+                    48.77984125442126
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Rainbow Falls PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "August 31, 2021",
+                "trails": "Rainbow Falls"
+            },
+            "geometry": {
+                "coordinates": [
+                    -87.39790479324486,
+                    48.845659798755634
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0c7ed3",
+                "marker-size": "medium",
+                "visited": "Aguasabon River Gorge",
+                "date": "August 31, 2021"
+            },
+            "geometry": {
+                "coordinates": [
+                    -87.12469098820343,
+                    48.78175153489158
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Ouimet Canyon PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "September 1, 2021",
+                "trails": "Ouimet Canyon"
+            },
+            "geometry": {
+                "coordinates": [
+                    -88.67230423529242,
+                    48.78904612533785
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0c7ed4",
+                "marker-size": "medium",
+                "visited": "Amethyst Mine Panorama",
+                "date": "September 1, 2021"
+            },
+            "geometry": {
+                "coordinates": [
+                    -88.72550933852442,
+                    48.68947598430876
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Sleeping Giant PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "September 1, 2021",
+                "trails": "See Lion "
+            },
+            "geometry": {
+                "coordinates": [
+                    -88.82183013009137,
+                    48.34064157673163
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0c7ed4",
+                "marker-size": "medium",
+                "visited": "Thunder Bay Lookout",
+                "date": "September 1, 2021"
+            },
+            "geometry": {
+                "coordinates": [
+                    -88.82316436035467,
+                    48.475657221572845
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Sleeping Giant PP",
+                "marker-color": "#0c943f",
+                "marker-size": "medium",
+                "date": "September 1, 2021",
+                "trails": "Bay's End Lookout"
+            },
+            "geometry": {
+                "coordinates": [
+                    -88.74191653094896,
+                    48.56454334862559
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Kakabeka Falls PP",
+                "marker-color": "#0c943f",
+                "marker-size": "medium",
+                "date": "September 2, 2021",
+                "trails": "Mountain Portage, Little Falls"
+            },
+            "geometry": {
+                "coordinates": [
+                    -89.6253193072639,
+                    48.40134252828403
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0c7ed4",
+                "marker-size": "medium",
+                "visited": "Pebble beach",
+                "date": "September 3, 2021"
+            },
+            "geometry": {
+                "coordinates": [
+                    -86.38754822061355,
+                    48.70727087478707
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Fort St. Joseph National Historic Site",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "September 4, 2021",
+                "trails": "Cemetery, Rains Point, Lapointe Point "
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.94556896762734,
+                    46.0638948970618
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Manitoulin island",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "September 5, 2021",
+                "trails": "Cup and Saucer"
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.11410587870284,
+                    45.8532261422186
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Misery Bay PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "September 5, 2021",
+                "trails": "Coastal Alvar"
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.72605824503364,
+                    45.80054486637789
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Fielding Bird Sanctuary",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "September 6, 2021",
+                "trails": "Kelly Lake "
+            },
+            "geometry": {
+                "coordinates": [
+                    -81.09718568921397,
+                    46.42722902893786
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Grundy Lake PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "September 6, 2021",
+                "trails": "Swan Lake"
+            },
+            "geometry": {
+                "coordinates": [
+                    -80.56490761183852,
+                    45.929955493829056
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hikes": "Six Mile Lake PP",
+                "marker-color": "#0a943f",
+                "marker-size": "medium",
+                "date": "September 6, 2021",
+                "trails": "David Milne, The Living Edge"
+            },
+            "geometry": {
+                "coordinates": [
+                    -79.75376186482276,
+                    44.90085355127363
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}
