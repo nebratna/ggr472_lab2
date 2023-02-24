@@ -46,13 +46,13 @@ map.on('load', () => {
         'source-layer': 'Provincial_park_regulated-d0gx9s',
         'type': 'fill',
         'paint': {
-            'fill-color': 'black',
-            'fill-opacity': 0.4,
-            'fill-outline-color': 'yellow'
+            'fill-color': '#627BC1',
+            'fill-opacity': ['case', ['boolean', ['feature-state', 'hover'], false], 1, 0.4], //CASE and FEATURE STATE expression sets opactity as 0.4 when hover state is false and 1 when updated to true
+            'fill-outline-color': 'white'
         },
     });
 
-    /*Add a mouse click event*/
+    /*Add a mouse click event for places-hiked-and-visited layer*/
 
     // Change the cursor to a pointer when the mouse is over the places-hiked-and-visited layer.
     map.on('mouseenter', 'places-hiked-and-visited', () => {
@@ -70,6 +70,28 @@ map.on('load', () => {
             .setHTML("<b>Hiked/Visited:</b> " + (e.features[0].properties.hikes || e.features[0].properties.visited) + "<br>" + "<b>Date:</b> " + e.features[0].properties.date) //Use click event properties to write text for popup
             .addTo(map); //Show  popup on map
     });
+
+    /*Add a mouse click event for ONparks layer*/
+
+    // Change the cursor to a pointer when the mouse is over the ONparks layer.
+    map.on('mouseenter', 'ONparks', () => {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'ONparks', () => {
+        map.getCanvas().style.cursor = '';
+    });
+
+    map.on('click', 'ONparks', (e) => {
+        new mapboxgl.Popup() //Declare new popup object on each click
+            .setLngLat(e.lngLat) //Use method to set coordinates of popup based on mouse click location
+            .setHTML("<b>Provincially-Protected Area:</b> " + "<br>" + e.features[0].properties.PROTECTED_AREA_NAME_ENG) //Use click event properties to write text for popup
+            .addTo(map); //Show  popup on map
+    });
+
+
+    
 
 });
 
