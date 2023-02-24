@@ -14,20 +14,6 @@ const map = new mapboxgl.Map({
 map.on('load', () => {
     console.log('A load event occured'); //to check in Developer Console if it loads
 
-    /*Load an image*/
-    map.loadImage(
-        'Data/red_pin.png',
-        (error, image) => {
-            if (error) throw error;
-
-            /*Add image to the map style*/
-            map.addImage('pin', image);
-
-            
-            
-        });
-
-
     /*Adding a source for Mapbox Tileset*/
     map.addSource('visits', { // set-up source ID for places-hiked-and-visited
         type: 'vector',
@@ -44,12 +30,12 @@ map.on('load', () => {
         'id': 'places-hiked-and-visited',
         'source': 'visits',//matches my source ID in addSource method above
         'source-layer': 'RoadTrip2021-4scneg',
-        'type': 'symbol',
-        'layout': {
-            'icon-image': 'pin', // reference the image
-            'icon-size': 50,
+        'type': 'circle',
+        'paint': {
+            'circle-color': 'red', // reference the image
+            'circle-radius': 5,
         },
-        'minzoom': 0,
+        'minzoom': 0
 
     });
 
@@ -103,12 +89,4 @@ map.on('load', () => {
             .setHTML("<b>Provincially-Protected Area:</b> " + "<br>" + e.features[0].properties.PROTECTED_AREA_NAME_ENG) //Use click event properties to write text for popup
             .addTo(map); //Show  popup on map
     });
-
-
-
-
 });
-
-
-
-
