@@ -1,2 +1,4 @@
 # ggr472_lab2
- creating a web map with two data layers
+ 
+ For this lab I continued to work with the website and the data I created for Lab 1. I added a Map tab to the home page and a link to the web map within the text. The web map contains red points symbolizing the places I hiked/visited. It also contains a polygon layer with the protected areas (most are provincial parks) in Ontario obtained from here: https://geohub.lio.gov.on.ca/datasets/lio::provincial-park-regulated/explore?location=48.253250%2C-84.205549%2C7.12 
+ Both feature layers were originally downloaded as GeoJSON files and then converted to Tilesets using Mapbox Studio. As a result the lowest available zoom level for the polygon layer is 7, requiring the user to zoom in from the initial zoom level of 5.5, which on most computer screens should encomapss all red points. 
