@@ -6,7 +6,7 @@ const map = new mapboxgl.Map({
     container: 'map', // container ID for my map
     style: 'mapbox://styles/nebratna/clehqd5k6002601nre3suucxz', // URL link to my Mapbox Studio style basemap
     center: [-84.67401692764999, 46.958721756061216], // starting position [longitude, latitude]
-    zoom: 7, // starting zoom
+    zoom: 5.5, // starting zoom, so that all points/hiked places are visible on one screen
 });
 
 
