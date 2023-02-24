@@ -6,14 +6,28 @@ const map = new mapboxgl.Map({
     container: 'map', // container ID for my map
     style: 'mapbox://styles/nebratna/clehqd5k6002601nre3suucxz', // URL link to my Mapbox Studio style basemap
     center: [-84.67401692764999, 46.958721756061216], // starting position [longitude, latitude]
-    zoom: 6.5, // starting zoom
+    zoom: 7, // starting zoom
 });
-
 
 
 //After map load event, add data sources and draw layers
 map.on('load', () => {
     console.log('A load event occured'); //to check in Developer Console if it loads
+
+    /*Load an image*/
+    map.loadImage(
+        'Data/red_pin.png',
+        (error, image) => {
+            if (error) throw error;
+
+            /*Add image to the map style*/
+            map.addImage('pin', image);
+
+            
+            
+        });
+
+
     /*Adding a source for Mapbox Tileset*/
     map.addSource('visits', { // set-up source ID for places-hiked-and-visited
         type: 'vector',
@@ -30,12 +44,12 @@ map.on('load', () => {
         'id': 'places-hiked-and-visited',
         'source': 'visits',//matches my source ID in addSource method above
         'source-layer': 'RoadTrip2021-4scneg',
-        'type': 'circle',
-        'paint': {
-            'circle-color': 'blue',
-            'circle-radius': 8,
+        'type': 'symbol',
+        'layout': {
+            'icon-image': 'pin', // reference the image
+            'icon-size': 50,
         },
-        'minzoom': 6.5,
+        'minzoom': 0,
 
     });
 
@@ -91,7 +105,7 @@ map.on('load', () => {
     });
 
 
-    
+
 
 });
 
